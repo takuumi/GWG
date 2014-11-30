@@ -1,0 +1,348 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <META http-equiv="Content-Script-Type" content="text/javascript">
+  <META http-equiv="Content-Style-Type" content="text/css">
+  <meta http-equiv="Content-Type" content="text/html;charset=shift_jis">
+
+  <link rel="stylesheet" type="text/css" href="slicebox.css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="table.css">
+
+  <script type="text/javascript" src="src/common.js"></script>
+  <script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="lib/modernizr.custom.46884.js"></script>
+  <script type="text/javascript" src="lib/jquery.slicebox.js"></script>
+
+  <!-- [FC2 Analyzer] http://analyzer.fc2.com/  -->
+  <script language="javascript" src="http://analyzer51.fc2.com/ana/processor.php?uid=2459138" type="text/javascript"></script>
+  <noscript><div align="right"><img src="http://analyzer51.fc2.com/ana/icon.php?uid=2459138&ref=&href=&wid=0&hei=0&col=0" /></div></noscript>
+  <!-- [FC2 Analyzer]  -->
+
+  <title>
+  GWG History
+  </title>
+
+</head>
+
+<body>
+<!--******************************************-->
+<div id="baseBlock1">
+  <div id="title"><h1>
+    GWG History 
+    </h1>
+  </div>
+  
+  <div class="wrapper">
+    <ul id="sb-slider" class="sb-slider">
+      <li>
+        <a href="http://goldenwondergassyuku.web.fc2.com/src/contents/2014spring.html" target="_blank"><img src="img/system/2014_sp_1.JPG" alt="2014_sp_1"/></a>
+        <div class="sb-description">
+          <h4>2014年春</h4>
+        </div>
+      </li>
+      <li>
+        <a href="http://goldenwondergassyuku.web.fc2.com/src/contents/2013summer.html" target="_blank"><img src="img/system/2013_su_1.JPG" alt="2013_su_1"/></a>
+        <div class="sb-description">
+          <h4>2013年夏</h4>
+        </div>
+      </li>
+      <li>
+        <a href="http://goldenwondergassyuku.web.fc2.com/src/contents/2013spring.html" target="_blank"><img src="img/system/2013_sp_1.jpg" alt="2013_sp_1"/></a>
+        <div class="sb-description">
+          <h4>2013年春</h4>
+        </div>
+      </li>
+      <li>
+        <a href="http://goldenwondergassyuku.web.fc2.com/src/contents/2011summer.html" target="_blank"><img src="img/system/2011_su_1.jpg" alt="2011_su_1"/></a>
+        <div class="sb-description">
+          <h4>2011年夏</h4>
+        </div>
+      </li>      
+    </ul>
+    <div id="nav-arrows" class="nav-arrows">
+      <a href="#">Next</a>
+      <a href="#">Previous</a>
+    </div>
+
+  </div><!-- /wrapper -->
+  <script type="text/javascript">
+    $(function() {
+      
+      var Page = (function() {
+
+        var $navArrows = $( '#nav-arrows' ).hide(),
+          $shadow = $( '#shadow' ).hide(),
+          slicebox = $( '#sb-slider' ).slicebox( {
+            onReady : function() {
+
+              $navArrows.show();
+              $shadow.show();
+
+            },
+            orientation : 'r',
+            cuboidsRandom : true,
+            disperseFactor : 30
+          } ),
+          
+          init = function() {
+
+            initEvents();
+            
+          },
+          initEvents = function() {
+
+            // add navigation events
+            $navArrows.children( ':first' ).on( 'click', function() {
+
+              slicebox.next();
+              return false;
+
+            } );
+
+            $navArrows.children( ':last' ).on( 'click', function() {
+              
+              slicebox.previous();
+              return false;
+
+            } );
+
+          };
+
+          return { init : init };
+
+      })();
+
+      Page.init();
+
+    });
+  </script>
+
+  <script type="text/javascript">
+      writeLeftMenu();
+  </script>
+
+
+
+  <!--******************************************-->
+  <div id="main">
+  <div id="maintext">
+
+  <h3>ノウハウ</h3>
+    ・開封済みのタレはこぼれる可能性があるため、持ち帰らない。<br>
+    ・おつまみ王国は必ず次の日に余る。<br>
+    ・春は地味に寒い。<br>
+    ・GW中の渋滞をなめてはいけない。<br>
+    ・空腹時のGSでの買い物は危険。<br>
+    ・バターは燃料。<br>
+    ・家に帰るまでがGWG。<br>
+    ・GSはクローズ（クローズとは言っていない。）<br>
+    ・ポテトサラダの方がスパゲティサラダよりうまい。<br>
+    ・いつも「もう一人いれば倒せた。」という話題がでる。<br>
+    <br> <br>
+
+  <h3>実績</h3> 
+    <table>
+      <tr>
+        <th class="t_top">No</th>
+        <th class="t_top">場所</th>
+        <th class="t_top">主な出来事</th>
+      </tr>
+
+      <tr>
+        <td class="t_line01"><font color=#ff0000>new!!</font> <br>21:2014年夏 </td>
+        <td class="t_line01">京都 山村都市交流の森</td>
+        <td class="t_line01">・？？？<br>
+                   </td>
+      </tr>
+
+      <tr>
+        <td class="t_line02">20:2014年春</td>
+        <td class="t_line02">滋賀 希望ヶ丘</td>
+        <td class="t_line02">・米とカレー<br>
+                   ・トランポリン。<br>
+                   </td>
+      </tr>
+
+      <tr>
+        <td class="t_line01">19:2013年夏</td>
+        <td class="t_line01">鳥羽</td>
+        <td class="t_line01">・筋肉ハウス。<br>
+                 ・無人島で遊泳。<br>
+                    </td>
+      </tr>
+
+      <tr>
+        <td class="t_line02">18:2013年春</td>
+        <td class="t_line02">奈良野外活動センター</td>
+        <td class="t_line02">・整った設備と安い宿代。<br>
+                   ・坂元氏コテージの前で吐く。<br>
+                   </td>
+      </tr>
+
+      <tr>
+        <td class="t_line01">17:2012年夏</td>
+        <td class="t_line01">天川村 なごみ村キャンプ場</td>
+        <td class="t_line01">・田部氏急流で死にそうになる。<br>
+                 ・塾頭氏ひよって、岩上での写真撮影に参加せず。<br>
+                    </td>
+      </tr>
+
+      <tr>
+        <td class="t_line02">16:2012年春</td>
+        <td class="t_line02">友ヶ島</td>
+        <td class="t_line02">・旧日本軍の砲台。<br>
+                   ・着いた瞬間BBQ。腹ごなしに島1周。<br>
+                   ・ハム王の最後(GSで既に賞味期限切れ)→脱GS宣言採択
+                   </td>
+      </tr>
+
+      <tr>
+        <td class="t_line01">15:2011年夏</td>
+        <td class="t_line01">天川村</td>
+        <td class="t_line01">・ビールキャッチ。<br>
+                            <br>
+                    </td>
+      </tr>
+
+      <tr>
+        <td class="t_line02">14:2011年春</td>
+        <td class="t_line02">みさき公園</td>
+        <td class="t_line02">・けん玉。<br>
+                   ・加藤氏、渋滞中にトイレ。おいて行かれそうになる。<br>
+                   </td>
+      </tr>
+
+      <tr>
+        <td class="t_line01">13:2010年夏</td>
+        <td class="t_line01">小浜 勢浜海水浴場</td>
+        <td class="t_line01">・途中から雨。<br>
+                          <br>
+                    </td>
+      </tr>
+
+      <tr>
+        <td class="t_line02">12:2010年春</td>
+        <td class="t_line02">下北山(奈良)</td>
+        <td class="t_line02">・ダムの下でサッカー。<br>
+                            <br>
+                   </td>
+      </tr>
+
+      <tr>
+        <td class="t_line01">11:2009年冬</td>
+        <td class="t_line01">チャオ御岳</td>
+        <td class="t_line01">・イワーン氏、田部氏にボードを指導。<br>
+                   </td>
+      </tr>
+
+      <tr>
+        <td class="t_line02">10:2009年夏</td>
+        <td class="t_line02">塾頭別荘、美山</td>
+        <td class="t_line02">・囲炉裏。<br>
+                 ・室内花火。<br>
+                </td>
+      </tr>
+
+      <tr>
+        <td class="t_line01">09:2009年春</td>
+        <td class="t_line01">根の上高原</td>
+        <td class="t_line01">・久々のオリエン。<br>
+                   ・コントルズ参加。<br>
+                   </td>
+      </tr>
+
+      <tr>
+        <td class="t_line02">08:2008年夏</td>
+        <td class="t_line02">知多半島西側</td>
+        <td class="t_line02">・面白い建物のあった海水浴場。<br>
+                 ・焼肉のタレがバンにこぼれる。<br>
+                 ・バンジージャンプ。
+                </td>
+      </tr>
+
+      <tr>
+        <td class="t_line01">07:2008年春</td>
+        <td class="t_line01">塾頭氏別荘、美山</td>
+        <td class="t_line01">・キノピー氏、解脱。<br>
+                   ・シャケ飯。<br>
+                   </td>
+      </tr>
+
+
+      <tr>
+        <td class="t_line02">06:2007年夏</td>
+        <td class="t_line02">沼島</td>
+        <td class="t_line02">・中山氏腹いっぱい。はも料理食えず。<br>
+                 ・モーターボード。<br>
+                </td>
+      </tr>
+
+
+      <tr>
+        <td class="t_line01">05:2007年春</td>
+        <td class="t_line01">能勢グリーンランド</td>
+        <td class="t_line01">・斜面でBBQ。<br>
+                          <br>
+                   </td>
+      </tr>
+
+      <tr>
+        <td class="t_line02">04:2006年夏</td>
+        <td class="t_line02">塾頭氏別荘、生畑山荘</td>
+        <td class="t_line02">・キャンプファイヤー。<br>
+                 ・フランス人形。<br>
+                 ・ハム王。<br>
+                </td>
+      </tr>
+
+      <tr>
+        <td class="t_line01">03:2006年春</td>
+        <td class="t_line01">河内長野</td>
+        <td class="t_line01">・コタツで暖をとる。<br>
+                   ・カレーの中身見えない。<br>
+                   ・真っ暗な中、散策。
+                   </td>
+      </tr>
+
+      <tr>
+        <td class="t_line02">02:2005年夏</td>
+        <td class="t_line02">淡路島</td>
+        <td class="t_line02">・クラゲの塩抜き。<br>
+                   ・焼肉の焼き具合見えず。 <br>
+                   </td>
+      </tr>
+
+
+      <tr>
+        <td class="t_line01">01:2005年春</td>
+        <td class="t_line01">大森リゾートキャンプ場</td>
+        <td class="t_line01">・原氏、フライドポテト全食い。<br>
+                   ・タジー氏、カナブンに刺される。<br>
+                   
+                   </td>
+      </tr>
+
+
+    </table>
+    <br> <br>
+  </div>
+  </div>
+</div>
+
+<!--******************************************-->
+<div id="footer">
+<!--コピーライト表記です。貴方のサイトのタイトルを入れてください-->
+(C)site GWG History
+</div>
+</div><script type="text/javascript"><!--
+var fc2footerparam = 'cs=' + (document.charset ? document.charset : document.characterSet) + '&dm=' + document.location + '&rnd=' + Math.floor(Math.random()*99999999999);
+var fc2footertag = '<' + 'script src="http://web.fc2.com/footer/footer.php?' + fc2footerparam + '" charset="UTF-8"><' + '/script>';
+document.write(fc2footertag);
+//--></script>
+<!-- FC2, inc.-->
+<img src="http://media.fc2.com/counter_img.php?id=50" style="visibility:hidden" alt="inserted by FC2 system" width="0" height="0" />
+<!-- FC2, inc.-->
+</body>
+</html>
